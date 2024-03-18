@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="icon" href="./images/icon.png" type="png">
+    <title>Awesome Todo List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="todo">
+            <h3 for="todo">Awesome Todo List</h3>
+            <form class="form">
+                <input required id="todo" type="text" placeholder="What do you need to do today?">
+                <button>ADD</button>
+            </form>
+            <div class="tasks">
+                <div class="task">
+                    <span class="check-container">
+                        <input class="checkbox" type="checkbox">
+                        <p>Cras justo odio</p>
+                    </span>
+                    <article>
+                        <p>13 : 24 : 43</p>
+                        <button type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" style="fill: #1266f1;"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+                        </button>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
