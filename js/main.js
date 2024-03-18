@@ -84,6 +84,3 @@ function showTask() {
 }
 
 showTask()
-
-const names = ['Jasur', 'Aziz', 'Sardor']
-let getNames = JSON.parse(localStorage.getItem("names"))
